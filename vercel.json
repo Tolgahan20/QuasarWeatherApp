@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "QuasarWeatherApp",
+  "builds": [
+    { "src": "dist/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "dist/spa/index.html" }
+  ]
+}
