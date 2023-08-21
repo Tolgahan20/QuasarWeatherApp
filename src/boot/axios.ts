@@ -14,7 +14,7 @@ declare module '@vue/runtime-core' {
 // "export default () => {}" function below (which runs individually
 // for each client)
 const api = axios.create({
-  baseURL: 'http://api.weatherapi.com/v1', 
+  baseURL: 'https://api.weatherapi.com/v1',
   timeout: 10000 // Timeout
 });
 export default boot(({ app }) => {
